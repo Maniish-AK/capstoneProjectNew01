@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\srija\eclipse-workspace\CapstoneProjectNew01\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">7 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">12 methods,   12 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC005_BookConfirmTest" class="method navigator-link" hash-for-method="bookConfirmHotel(ManiishAKGuvi, Maniish@0212, ValidEmailAndValidPassword, Hello ManiishAKGuvi!, Paris, Hotel Creek, S...)">bookConfirmHotel(ManiishAKGuvi, Maniish@0212, ValidEmailAndValidPassword, Hello ManiishAKGuvi!, Paris, Hotel Creek, S...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC004_BookHotelTest" class="method navigator-link" hash-for-method="bookHotel(ManiishAKGuvi, Maniish@0212, ValidEmailAndValidPassword, Hello ManiishAKGuvi!, Paris, Hotel Creek, S...)">bookHotel(ManiishAKGuvi, Maniish@0212, ValidEmailAndValidPassword, Hello ManiishAKGuvi!, Paris, Hotel Creek, S...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC004_BookHotelTest" class="method navigator-link" hash-for-method="bookHotel(ManiishAKGuvi, Maniish@0212, ValidEmailAndValidPassword, Hello ManiishAKGuvi!, Paris, Hotel Creek, S...)">bookHotel(ManiishAKGuvi, Maniish@0212, ValidEmailAndValidPassword, Hello ManiishAKGuvi!, Paris, Hotel Creek, S...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC006_BookedItineraryTest" class="method navigator-link" hash-for-method="cancelOrderUsingButtonInsideGrid(ManiishAKGuvi, Maniish@0212, ValidEmailAndValidPassword, Hello ManiishAKGuvi!, Paris, Hotel Creek, S...)">cancelOrderUsingButtonInsideGrid(ManiishAKGuvi, Maniish@0212, ValidEmailAndValidPassword, Hello ManiishAKGuvi!, Paris, Hotel Creek, S...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC007_LogoutTest" class="method navigator-link" hash-for-method="cancelOrderUsingButtonInsideGrid(ManiishAKGuvi, Maniish@0212, ValidEmailAndValidPassword, Hello ManiishAKGuvi!)">cancelOrderUsingButtonInsideGrid(ManiishAKGuvi, Maniish@0212, ValidEmailAndValidPassword, Hello ManiishAKGuvi!)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC006_BookedItineraryTest" class="method navigator-link" hash-for-method="cancelSelectedHotelUsingButton(ManiishAKGuvi, Maniish@0212, ValidEmailAndValidPassword, Hello ManiishAKGuvi!, Paris, Hotel Creek, S...)">cancelSelectedHotelUsingButton(ManiishAKGuvi, Maniish@0212, ValidEmailAndValidPassword, Hello ManiishAKGuvi!, Paris, Hotel Creek, S...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC001_LoginTest" class="method navigator-link" hash-for-method="loginTest(aabbcc, Maniish@0212, InvalidValidEmailAndValidPassword, Invalid Login details or Your Password migh...)">loginTest(aabbcc, Maniish@0212, InvalidValidEmailAndValidPassword, Invalid Login details or Your Password migh...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC001_LoginTest" class="method navigator-link" hash-for-method="loginTest(ManiishAKGuvi, Maniish@0212, ValidEmailAndValidPassword, Hello ManiishAKGuvi!)">loginTest(ManiishAKGuvi, Maniish@0212, ValidEmailAndValidPassword, Hello ManiishAKGuvi!)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC002_SearchHotelTest" class="method navigator-link" hash-for-method="searchHotel(ManiishAKGuvi, Maniish@0212, ValidEmailAndValidPassword, Hello ManiishAKGuvi!, , Hotel Creek, Super ...)">searchHotel(ManiishAKGuvi, Maniish@0212, ValidEmailAndValidPassword, Hello ManiishAKGuvi!, , Hotel Creek, Super ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC002_SearchHotelTest" class="method navigator-link" hash-for-method="searchHotel(ManiishAKGuvi, Maniish@0212, ValidEmailAndValidPassword, Hello ManiishAKGuvi!, Paris, Hotel Creek, S...)">searchHotel(ManiishAKGuvi, Maniish@0212, ValidEmailAndValidPassword, Hello ManiishAKGuvi!, Paris, Hotel Creek, S...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC006_BookedItineraryTest" class="method navigator-link" hash-for-method="searchOrderIdAndShowall(ManiishAKGuvi, Maniish@0212, ValidEmailAndValidPassword, Hello ManiishAKGuvi!, Paris, Hotel Creek, S...)">searchOrderIdAndShowall(ManiishAKGuvi, Maniish@0212, ValidEmailAndValidPassword, Hello ManiishAKGuvi!, Paris, Hotel Creek, S...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.TC003_SelectHotelTest" class="method navigator-link" hash-for-method="selectHotel(ManiishAKGuvi, Maniish@0212, ValidEmailAndValidPassword, Hello ManiishAKGuvi!, Paris, Hotel Creek, S...)">selectHotel(ManiishAKGuvi, Maniish@0212, ValidEmailAndValidPassword, Hello ManiishAKGuvi!, Paris, Hotel Creek, S...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.TC003_SelectHotelTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectHotel(ManiishAKGuvi, Maniish@0212, ValidEmailAndValidPassword, Hello ManiishAKGuvi!, Paris, Hotel Creek, S...)">
+                  </a> <!-- selectHotel(ManiishAKGuvi, Maniish@0212, ValidEmailAndValidPassword, Hello ManiishAKGuvi!, Paris, Hotel Creek, S...) -->
+                  <span class="method-name">selectHotel</span>
+                  <span class="parameters">(ManiishAKGuvi,Maniish@0212,ValidEmailAndValidPassword,Hello ManiishAKGuvi!,Paris,Hotel Creek,Super Deluxe,1 - One,29/04/2025,30/04/2025,2 - Two,2 - Two)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.TC001_LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(aabbcc, Maniish@0212, InvalidValidEmailAndValidPassword, Invalid Login details or Your Password migh...)">
+                  </a> <!-- loginTest(aabbcc, Maniish@0212, InvalidValidEmailAndValidPassword, Invalid Login details or Your Password migh...) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(aabbcc,Maniish@0212,InvalidValidEmailAndValidPassword,Invalid Login details or Your Password might have expired. )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(ManiishAKGuvi, Maniish@0212, ValidEmailAndValidPassword, Hello ManiishAKGuvi!)">
+                  </a> <!-- loginTest(ManiishAKGuvi, Maniish@0212, ValidEmailAndValidPassword, Hello ManiishAKGuvi!) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(ManiishAKGuvi,Maniish@0212,ValidEmailAndValidPassword,Hello ManiishAKGuvi!)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.TC006_BookedItineraryTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="cancelOrderUsingButtonInsideGrid(ManiishAKGuvi, Maniish@0212, ValidEmailAndValidPassword, Hello ManiishAKGuvi!, Paris, Hotel Creek, S...)">
+                  </a> <!-- cancelOrderUsingButtonInsideGrid(ManiishAKGuvi, Maniish@0212, ValidEmailAndValidPassword, Hello ManiishAKGuvi!, Paris, Hotel Creek, S...) -->
+                  <span class="method-name">cancelOrderUsingButtonInsideGrid</span>
+                  <span class="parameters">(ManiishAKGuvi,Maniish@0212,ValidEmailAndValidPassword,Hello ManiishAKGuvi!,Paris,Hotel Creek,Super Deluxe,1 - One,29/04/2025,30/04/2025,2 - Two,2 - Two,User,Guvi,456 Oak Avenue, Suite 302, Toronto, Ontario, M5A 1A1, Canada,4123567890112230,VISA,December,2030,123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cancelSelectedHotelUsingButton(ManiishAKGuvi, Maniish@0212, ValidEmailAndValidPassword, Hello ManiishAKGuvi!, Paris, Hotel Creek, S...)">
+                  </a> <!-- cancelSelectedHotelUsingButton(ManiishAKGuvi, Maniish@0212, ValidEmailAndValidPassword, Hello ManiishAKGuvi!, Paris, Hotel Creek, S...) -->
+                  <span class="method-name">cancelSelectedHotelUsingButton</span>
+                  <span class="parameters">(ManiishAKGuvi,Maniish@0212,ValidEmailAndValidPassword,Hello ManiishAKGuvi!,Paris,Hotel Creek,Super Deluxe,1 - One,29/04/2025,30/04/2025,2 - Two,2 - Two,User,Guvi,456 Oak Avenue, Suite 302, Toronto, Ontario, M5A 1A1, Canada,4123567890112230,VISA,December,2030,123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchOrderIdAndShowall(ManiishAKGuvi, Maniish@0212, ValidEmailAndValidPassword, Hello ManiishAKGuvi!, Paris, Hotel Creek, S...)">
+                  </a> <!-- searchOrderIdAndShowall(ManiishAKGuvi, Maniish@0212, ValidEmailAndValidPassword, Hello ManiishAKGuvi!, Paris, Hotel Creek, S...) -->
+                  <span class="method-name">searchOrderIdAndShowall</span>
+                  <span class="parameters">(ManiishAKGuvi,Maniish@0212,ValidEmailAndValidPassword,Hello ManiishAKGuvi!,Paris,Hotel Creek,Super Deluxe,1 - One,29/04/2025,30/04/2025,2 - Two,2 - Two,User,Guvi,456 Oak Avenue, Suite 302, Toronto, Ontario, M5A 1A1, Canada,4123567890112230,VISA,December,2030,123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.TC004_BookHotelTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookHotel(ManiishAKGuvi, Maniish@0212, ValidEmailAndValidPassword, Hello ManiishAKGuvi!, Paris, Hotel Creek, S...)">
+                  </a> <!-- bookHotel(ManiishAKGuvi, Maniish@0212, ValidEmailAndValidPassword, Hello ManiishAKGuvi!, Paris, Hotel Creek, S...) -->
+                  <span class="method-name">bookHotel</span>
+                  <span class="parameters">(ManiishAKGuvi,Maniish@0212,ValidEmailAndValidPassword,Hello ManiishAKGuvi!,Paris,Hotel Creek,Super Deluxe,1 - One,29/04/2025,30/04/2025,2 - Two,2 - Two,User,Guvi,456 Oak Avenue, Suite 302, Toronto, Ontario, M5A 1A1, Canada,,,,,)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookHotel(ManiishAKGuvi, Maniish@0212, ValidEmailAndValidPassword, Hello ManiishAKGuvi!, Paris, Hotel Creek, S...)">
+                  </a> <!-- bookHotel(ManiishAKGuvi, Maniish@0212, ValidEmailAndValidPassword, Hello ManiishAKGuvi!, Paris, Hotel Creek, S...) -->
+                  <span class="method-name">bookHotel</span>
+                  <span class="parameters">(ManiishAKGuvi,Maniish@0212,ValidEmailAndValidPassword,Hello ManiishAKGuvi!,Paris,Hotel Creek,Super Deluxe,1 - One,29/04/2025,30/04/2025,2 - Two,2 - Two,User,Guvi,456 Oak Avenue, Suite 302, Toronto, Ontario, M5A 1A1, Canada,4123567890112230,VISA,December,2030,123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.TC002_SearchHotelTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchHotel(ManiishAKGuvi, Maniish@0212, ValidEmailAndValidPassword, Hello ManiishAKGuvi!, , Hotel Creek, Super ...)">
+                  </a> <!-- searchHotel(ManiishAKGuvi, Maniish@0212, ValidEmailAndValidPassword, Hello ManiishAKGuvi!, , Hotel Creek, Super ...) -->
+                  <span class="method-name">searchHotel</span>
+                  <span class="parameters">(ManiishAKGuvi,Maniish@0212,ValidEmailAndValidPassword,Hello ManiishAKGuvi!,,Hotel Creek,Super Deluxe,1 - One,,,2 - Two,2 - Two)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchHotel(ManiishAKGuvi, Maniish@0212, ValidEmailAndValidPassword, Hello ManiishAKGuvi!, Paris, Hotel Creek, S...)">
+                  </a> <!-- searchHotel(ManiishAKGuvi, Maniish@0212, ValidEmailAndValidPassword, Hello ManiishAKGuvi!, Paris, Hotel Creek, S...) -->
+                  <span class="method-name">searchHotel</span>
+                  <span class="parameters">(ManiishAKGuvi,Maniish@0212,ValidEmailAndValidPassword,Hello ManiishAKGuvi!,Paris,Hotel Creek,Super Deluxe,1 - One,29/04/2025,30/04/2025,2 - Two,2 - Two)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.TC005_BookConfirmTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookConfirmHotel(ManiishAKGuvi, Maniish@0212, ValidEmailAndValidPassword, Hello ManiishAKGuvi!, Paris, Hotel Creek, S...)">
+                  </a> <!-- bookConfirmHotel(ManiishAKGuvi, Maniish@0212, ValidEmailAndValidPassword, Hello ManiishAKGuvi!, Paris, Hotel Creek, S...) -->
+                  <span class="method-name">bookConfirmHotel</span>
+                  <span class="parameters">(ManiishAKGuvi,Maniish@0212,ValidEmailAndValidPassword,Hello ManiishAKGuvi!,Paris,Hotel Creek,Super Deluxe,1 - One,29/04/2025,30/04/2025,2 - Two,2 - Two,User,Guvi,456 Oak Avenue, Suite 302, Toronto, Ontario, M5A 1A1, Canada,4123567890112230,VISA,December,2030,123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.TC007_LogoutTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="cancelOrderUsingButtonInsideGrid(ManiishAKGuvi, Maniish@0212, ValidEmailAndValidPassword, Hello ManiishAKGuvi!)">
+                  </a> <!-- cancelOrderUsingButtonInsideGrid(ManiishAKGuvi, Maniish@0212, ValidEmailAndValidPassword, Hello ManiishAKGuvi!) -->
+                  <span class="method-name">cancelOrderUsingButtonInsideGrid</span>
+                  <span class="parameters">(ManiishAKGuvi,Maniish@0212,ValidEmailAndValidPassword,Hello ManiishAKGuvi!)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\srija\eclipse-workspace\CapstoneProjectNew01\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;parameter name=&quot;browser&quot; value=&quot;Chrome&quot;/&gt;
+  &lt;parameter name=&quot;url&quot; value=&quot;https://adactinhotelapp.com/index.php&quot;/&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;LoginTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.TC001_LoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LoginTest --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;SearchHotelTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.TC002_SearchHotelTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SearchHotelTest --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;SelectHotelTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.TC003_SelectHotelTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SelectHotelTest --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;BookHotelTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.TC004_BookHotelTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- BookHotelTest --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;BookConfirmTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.TC005_BookConfirmTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- BookConfirmTest --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;BookedItineraryTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.TC006_BookedItineraryTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- BookedItineraryTest --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;LogoutTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.TC007_LogoutTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LogoutTest --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">LoginTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">SearchHotelTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">SelectHotelTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">BookHotelTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">BookConfirmTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">BookedItineraryTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">LogoutTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(12);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'searchOrderIdAndShowall')
+data.setCell(0, 2, 'test.TC006_BookedItineraryTest')
+data.setCell(0, 3, 28013);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'bookConfirmHotel')
+data.setCell(1, 2, 'test.TC005_BookConfirmTest')
+data.setCell(1, 3, 22849);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'bookHotel')
+data.setCell(2, 2, 'test.TC004_BookHotelTest')
+data.setCell(2, 3, 16303);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'bookHotel')
+data.setCell(3, 2, 'test.TC004_BookHotelTest')
+data.setCell(3, 3, 15538);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'selectHotel')
+data.setCell(4, 2, 'test.TC003_SelectHotelTest')
+data.setCell(4, 3, 11368);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'searchHotel')
+data.setCell(5, 2, 'test.TC002_SearchHotelTest')
+data.setCell(5, 3, 9598);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'searchHotel')
+data.setCell(6, 2, 'test.TC002_SearchHotelTest')
+data.setCell(6, 3, 9107);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'cancelSelectedHotelUsingButton')
+data.setCell(7, 2, 'test.TC006_BookedItineraryTest')
+data.setCell(7, 3, 6256);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'cancelOrderUsingButtonInsideGrid')
+data.setCell(8, 2, 'test.TC006_BookedItineraryTest')
+data.setCell(8, 3, 5979);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'cancelOrderUsingButtonInsideGrid')
+data.setCell(9, 2, 'test.TC007_LogoutTest')
+data.setCell(9, 3, 2620);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'loginTest')
+data.setCell(10, 2, 'test.TC001_LoginTest')
+data.setCell(10, 3, 1003);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'loginTest')
+data.setCell(11, 2, 'test.TC001_LoginTest')
+data.setCell(11, 3, 770);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC001_LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(Chrome, https://adactinhotelapp.com/index.php)</span>
+                <span class="method-start">1426 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginTest(aabbcc, Maniish@0212, InvalidValidEmailAndValidPassword, Invalid Login details or Your Password migh...)</span>
+                <span class="method-start">6726 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">7504 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(Chrome, https://adactinhotelapp.com/index.php)</span>
+                <span class="method-start">7687 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginTest(ManiishAKGuvi, Maniish@0212, ValidEmailAndValidPassword, Hello ManiishAKGuvi!)</span>
+                <span class="method-start">11744 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">12751 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC002_SearchHotelTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">13167 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(Chrome, https://adactinhotelapp.com/index.php)</span>
+                <span class="method-start">13385 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchHotel(ManiishAKGuvi, Maniish@0212, ValidEmailAndValidPassword, Hello ManiishAKGuvi!, , Hotel Creek, Super ...)</span>
+                <span class="method-start">16986 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">26096 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(Chrome, https://adactinhotelapp.com/index.php)</span>
+                <span class="method-start">26331 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchHotel(ManiishAKGuvi, Maniish@0212, ValidEmailAndValidPassword, Hello ManiishAKGuvi!, Paris, Hotel Creek, S...)</span>
+                <span class="method-start">31563 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">41164 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC003_SelectHotelTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">41285 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(Chrome, https://adactinhotelapp.com/index.php)</span>
+                <span class="method-start">41735 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">selectHotel(ManiishAKGuvi, Maniish@0212, ValidEmailAndValidPassword, Hello ManiishAKGuvi!, Paris, Hotel Creek, S...)</span>
+                <span class="method-start">45676 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">57046 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC004_BookHotelTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">57256 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(Chrome, https://adactinhotelapp.com/index.php)</span>
+                <span class="method-start">57439 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">bookHotel(ManiishAKGuvi, Maniish@0212, ValidEmailAndValidPassword, Hello ManiishAKGuvi!, Paris, Hotel Creek, S...)</span>
+                <span class="method-start">62535 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">78075 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(Chrome, https://adactinhotelapp.com/index.php)</span>
+                <span class="method-start">78511 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">bookHotel(ManiishAKGuvi, Maniish@0212, ValidEmailAndValidPassword, Hello ManiishAKGuvi!, Paris, Hotel Creek, S...)</span>
+                <span class="method-start">82169 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">98473 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC005_BookConfirmTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">98633 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(Chrome, https://adactinhotelapp.com/index.php)</span>
+                <span class="method-start">98862 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">bookConfirmHotel(ManiishAKGuvi, Maniish@0212, ValidEmailAndValidPassword, Hello ManiishAKGuvi!, Paris, Hotel Creek, S...)</span>
+                <span class="method-start">105265 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">128116 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC006_BookedItineraryTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">128335 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(Chrome, https://adactinhotelapp.com/index.php)</span>
+                <span class="method-start">128559 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchOrderIdAndShowall(ManiishAKGuvi, Maniish@0212, ValidEmailAndValidPassword, Hello ManiishAKGuvi!, Paris, Hotel Creek, S...)</span>
+                <span class="method-start">132590 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">160605 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(Chrome, https://adactinhotelapp.com/index.php)</span>
+                <span class="method-start">161079 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">cancelSelectedHotelUsingButton(ManiishAKGuvi, Maniish@0212, ValidEmailAndValidPassword, Hello ManiishAKGuvi!, Paris, Hotel Creek, S...)</span>
+                <span class="method-start">166761 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">173019 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(Chrome, https://adactinhotelapp.com/index.php)</span>
+                <span class="method-start">173496 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">cancelOrderUsingButtonInsideGrid(ManiishAKGuvi, Maniish@0212, ValidEmailAndValidPassword, Hello ManiishAKGuvi!, Paris, Hotel Creek, S...)</span>
+                <span class="method-start">177200 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">183181 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TC007_LogoutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">183522 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(Chrome, https://adactinhotelapp.com/index.php)</span>
+                <span class="method-start">183744 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">cancelOrderUsingButtonInsideGrid(ManiishAKGuvi, Maniish@0212, ValidEmailAndValidPassword, Hello ManiishAKGuvi!)</span>
+                <span class="method-start">193118 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">195741 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,1217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-01T21:05:39 IST" name="Suite" finished-at="2025-03-01T21:08:25 IST" duration-ms="166800">
+    <groups>
+    </groups>
+    <test started-at="2025-03-01T21:05:39 IST" name="LoginTest" finished-at="2025-03-01T21:05:51 IST" duration-ms="12090">
+      <class name="test.TC001_LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.TC001_LoginTest@459e9125]" started-at="2025-03-01T21:05:39 IST" name="setup" finished-at="2025-03-01T21:05:39 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:test.TC001_LoginTest@459e9125]" started-at="2025-03-01T21:05:40 IST" name="launchBrowser" finished-at="2025-03-01T21:05:45 IST" duration-ms="5130" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://adactinhotelapp.com/index.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC001_LoginTest@459e9125]" started-at="2025-03-01T21:05:45 IST" name="loginTest" data-provider="excelRead" finished-at="2025-03-01T21:05:45 IST" duration-ms="611" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aabbcc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Maniish@0212]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[InvalidValidEmailAndValidPassword]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Invalid Login details or Your Password might have expired. ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:test.TC001_LoginTest@459e9125]" started-at="2025-03-01T21:05:45 IST" name="close" finished-at="2025-03-01T21:05:46 IST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:test.TC001_LoginTest@459e9125]" started-at="2025-03-01T21:05:46 IST" name="launchBrowser" finished-at="2025-03-01T21:05:50 IST" duration-ms="4110" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://adactinhotelapp.com/index.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC001_LoginTest@459e9125]" started-at="2025-03-01T21:05:50 IST" name="loginTest" data-provider="excelRead" finished-at="2025-03-01T21:05:50 IST" duration-ms="843" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ManiishAKGuvi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Maniish@0212]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ValidEmailAndValidPassword]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Hello ManiishAKGuvi!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:test.TC001_LoginTest@459e9125]" started-at="2025-03-01T21:05:50 IST" name="close" finished-at="2025-03-01T21:05:51 IST" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.TC001_LoginTest -->
+    </test> <!-- LoginTest -->
+    <test started-at="2025-03-01T21:05:51 IST" name="SearchHotelTest" finished-at="2025-03-01T21:06:17 IST" duration-ms="25962">
+      <class name="test.TC002_SearchHotelTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.TC002_SearchHotelTest@206a70ef]" started-at="2025-03-01T21:05:51 IST" name="setup" finished-at="2025-03-01T21:05:51 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:test.TC002_SearchHotelTest@206a70ef]" started-at="2025-03-01T21:05:51 IST" name="launchBrowser" finished-at="2025-03-01T21:05:54 IST" duration-ms="3018" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://adactinhotelapp.com/index.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="searchHotel(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC002_SearchHotelTest@206a70ef]" started-at="2025-03-01T21:05:54 IST" name="searchHotel" data-provider="excelRead" finished-at="2025-03-01T21:06:03 IST" duration-ms="9449" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ManiishAKGuvi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Maniish@0212]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ValidEmailAndValidPassword]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Hello ManiishAKGuvi!]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Hotel Creek]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Super Deluxe]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1 - One]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotel -->
+        <test-method is-config="true" signature="close()[pri:0, instance:test.TC002_SearchHotelTest@206a70ef]" started-at="2025-03-01T21:06:03 IST" name="close" finished-at="2025-03-01T21:06:04 IST" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:test.TC002_SearchHotelTest@206a70ef]" started-at="2025-03-01T21:06:04 IST" name="launchBrowser" finished-at="2025-03-01T21:06:08 IST" duration-ms="4373" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://adactinhotelapp.com/index.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="searchHotel(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC002_SearchHotelTest@206a70ef]" started-at="2025-03-01T21:06:08 IST" name="searchHotel" data-provider="excelRead" finished-at="2025-03-01T21:06:17 IST" duration-ms="8598" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ManiishAKGuvi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Maniish@0212]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ValidEmailAndValidPassword]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Hello ManiishAKGuvi!]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Paris]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Hotel Creek]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Super Deluxe]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1 - One]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[29/04/2025]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[30/04/2025]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotel -->
+        <test-method is-config="true" signature="close()[pri:0, instance:test.TC002_SearchHotelTest@206a70ef]" started-at="2025-03-01T21:06:17 IST" name="close" finished-at="2025-03-01T21:06:17 IST" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.TC002_SearchHotelTest -->
+    </test> <!-- SearchHotelTest -->
+    <test started-at="2025-03-01T21:06:17 IST" name="SelectHotelTest" finished-at="2025-03-01T21:06:31 IST" duration-ms="14187">
+      <class name="test.TC003_SelectHotelTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.TC003_SelectHotelTest@34e9fd99]" started-at="2025-03-01T21:06:17 IST" name="setup" finished-at="2025-03-01T21:06:17 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:test.TC003_SelectHotelTest@34e9fd99]" started-at="2025-03-01T21:06:17 IST" name="launchBrowser" finished-at="2025-03-01T21:06:20 IST" duration-ms="2960" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://adactinhotelapp.com/index.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="selectHotel(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC003_SelectHotelTest@34e9fd99]" started-at="2025-03-01T21:06:20 IST" name="selectHotel" data-provider="excelRead" finished-at="2025-03-01T21:06:31 IST" duration-ms="10908" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ManiishAKGuvi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Maniish@0212]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ValidEmailAndValidPassword]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Hello ManiishAKGuvi!]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Paris]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Hotel Creek]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Super Deluxe]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1 - One]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[29/04/2025]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[30/04/2025]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectHotel -->
+        <test-method is-config="true" signature="close()[pri:0, instance:test.TC003_SelectHotelTest@34e9fd99]" started-at="2025-03-01T21:06:31 IST" name="close" finished-at="2025-03-01T21:06:31 IST" duration-ms="161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.TC003_SelectHotelTest -->
+    </test> <!-- SelectHotelTest -->
+    <test started-at="2025-03-01T21:06:31 IST" name="BookHotelTest" finished-at="2025-03-01T21:07:10 IST" duration-ms="39644">
+      <class name="test.TC004_BookHotelTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.TC004_BookHotelTest@6a6cb05c]" started-at="2025-03-01T21:06:31 IST" name="setup" finished-at="2025-03-01T21:06:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:test.TC004_BookHotelTest@6a6cb05c]" started-at="2025-03-01T21:06:31 IST" name="launchBrowser" finished-at="2025-03-01T21:06:34 IST" duration-ms="3227" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://adactinhotelapp.com/index.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="bookHotel(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC004_BookHotelTest@6a6cb05c]" started-at="2025-03-01T21:06:34 IST" name="bookHotel" data-provider="excelRead" finished-at="2025-03-01T21:06:49 IST" duration-ms="14591" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ManiishAKGuvi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Maniish@0212]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ValidEmailAndValidPassword]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Hello ManiishAKGuvi!]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Paris]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Hotel Creek]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Super Deluxe]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1 - One]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[29/04/2025]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[30/04/2025]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[User]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Guvi]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[456 Oak Avenue, Suite 302, Toronto, Ontario, M5A 1A1, Canada]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookHotel -->
+        <test-method is-config="true" signature="close()[pri:0, instance:test.TC004_BookHotelTest@6a6cb05c]" started-at="2025-03-01T21:06:49 IST" name="close" finished-at="2025-03-01T21:06:49 IST" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:test.TC004_BookHotelTest@6a6cb05c]" started-at="2025-03-01T21:06:49 IST" name="launchBrowser" finished-at="2025-03-01T21:06:57 IST" duration-ms="7695" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://adactinhotelapp.com/index.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="bookHotel(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC004_BookHotelTest@6a6cb05c]" started-at="2025-03-01T21:06:57 IST" name="bookHotel" data-provider="excelRead" finished-at="2025-03-01T21:07:10 IST" duration-ms="13676" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ManiishAKGuvi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Maniish@0212]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ValidEmailAndValidPassword]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Hello ManiishAKGuvi!]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Paris]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Hotel Creek]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Super Deluxe]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1 - One]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[29/04/2025]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[30/04/2025]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[User]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Guvi]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[456 Oak Avenue, Suite 302, Toronto, Ontario, M5A 1A1, Canada]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[4123567890112230]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[VISA]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[December]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[2030]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookHotel -->
+        <test-method is-config="true" signature="close()[pri:0, instance:test.TC004_BookHotelTest@6a6cb05c]" started-at="2025-03-01T21:07:10 IST" name="close" finished-at="2025-03-01T21:07:10 IST" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.TC004_BookHotelTest -->
+    </test> <!-- BookHotelTest -->
+    <test started-at="2025-03-01T21:07:11 IST" name="BookConfirmTest" finished-at="2025-03-01T21:07:35 IST" duration-ms="24299">
+      <class name="test.TC005_BookConfirmTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.TC005_BookConfirmTest@327514f]" started-at="2025-03-01T21:07:11 IST" name="setup" finished-at="2025-03-01T21:07:11 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:test.TC005_BookConfirmTest@327514f]" started-at="2025-03-01T21:07:11 IST" name="launchBrowser" finished-at="2025-03-01T21:07:14 IST" duration-ms="3394" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://adactinhotelapp.com/index.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="bookConfirmHotel(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC005_BookConfirmTest@327514f]" started-at="2025-03-01T21:07:14 IST" name="bookConfirmHotel" data-provider="excelRead" finished-at="2025-03-01T21:07:35 IST" duration-ms="20562" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ManiishAKGuvi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Maniish@0212]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ValidEmailAndValidPassword]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Hello ManiishAKGuvi!]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Paris]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Hotel Creek]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Super Deluxe]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1 - One]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[29/04/2025]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[30/04/2025]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[User]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Guvi]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[456 Oak Avenue, Suite 302, Toronto, Ontario, M5A 1A1, Canada]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[4123567890112230]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[VISA]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[December]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[2030]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookConfirmHotel -->
+        <test-method is-config="true" signature="close()[pri:0, instance:test.TC005_BookConfirmTest@327514f]" started-at="2025-03-01T21:07:35 IST" name="close" finished-at="2025-03-01T21:07:35 IST" duration-ms="240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.TC005_BookConfirmTest -->
+    </test> <!-- BookConfirmTest -->
+    <test started-at="2025-03-01T21:07:35 IST" name="BookedItineraryTest" finished-at="2025-03-01T21:08:21 IST" duration-ms="45958">
+      <class name="test.TC006_BookedItineraryTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.TC006_BookedItineraryTest@1573f9fc]" started-at="2025-03-01T21:07:35 IST" name="setup" finished-at="2025-03-01T21:07:35 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:test.TC006_BookedItineraryTest@1573f9fc]" started-at="2025-03-01T21:07:35 IST" name="launchBrowser" finished-at="2025-03-01T21:07:38 IST" duration-ms="3391" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://adactinhotelapp.com/index.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="searchOrderIdAndShowall(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:test.TC006_BookedItineraryTest@1573f9fc]" started-at="2025-03-01T21:07:38 IST" name="searchOrderIdAndShowall" data-provider="excelRead" finished-at="2025-03-01T21:08:03 IST" duration-ms="24543" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ManiishAKGuvi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Maniish@0212]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ValidEmailAndValidPassword]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Hello ManiishAKGuvi!]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Paris]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Hotel Creek]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Super Deluxe]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1 - One]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[29/04/2025]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[30/04/2025]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[User]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Guvi]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[456 Oak Avenue, Suite 302, Toronto, Ontario, M5A 1A1, Canada]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[4123567890112230]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[VISA]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[December]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[2030]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchOrderIdAndShowall -->
+        <test-method is-config="true" signature="close()[pri:0, instance:test.TC006_BookedItineraryTest@1573f9fc]" started-at="2025-03-01T21:08:03 IST" name="close" finished-at="2025-03-01T21:08:03 IST" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:test.TC006_BookedItineraryTest@1573f9fc]" started-at="2025-03-01T21:08:03 IST" name="launchBrowser" finished-at="2025-03-01T21:08:06 IST" duration-ms="3248" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://adactinhotelapp.com/index.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="cancelSelectedHotelUsingButton(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:test.TC006_BookedItineraryTest@1573f9fc]" started-at="2025-03-01T21:08:06 IST" name="cancelSelectedHotelUsingButton" data-provider="excelRead" finished-at="2025-03-01T21:08:12 IST" duration-ms="5556" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ManiishAKGuvi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Maniish@0212]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ValidEmailAndValidPassword]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Hello ManiishAKGuvi!]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Paris]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Hotel Creek]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Super Deluxe]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1 - One]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[29/04/2025]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[30/04/2025]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[User]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Guvi]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[456 Oak Avenue, Suite 302, Toronto, Ontario, M5A 1A1, Canada]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[4123567890112230]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[VISA]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[December]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[2030]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cancelSelectedHotelUsingButton -->
+        <test-method is-config="true" signature="close()[pri:0, instance:test.TC006_BookedItineraryTest@1573f9fc]" started-at="2025-03-01T21:08:12 IST" name="close" finished-at="2025-03-01T21:08:12 IST" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:test.TC006_BookedItineraryTest@1573f9fc]" started-at="2025-03-01T21:08:12 IST" name="launchBrowser" finished-at="2025-03-01T21:08:15 IST" duration-ms="3065" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://adactinhotelapp.com/index.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="cancelOrderUsingButtonInsideGrid(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:test.TC006_BookedItineraryTest@1573f9fc]" started-at="2025-03-01T21:08:15 IST" name="cancelOrderUsingButtonInsideGrid" data-provider="excelRead" finished-at="2025-03-01T21:08:21 IST" duration-ms="5362" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ManiishAKGuvi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Maniish@0212]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ValidEmailAndValidPassword]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Hello ManiishAKGuvi!]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Paris]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Hotel Creek]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Super Deluxe]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1 - One]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[29/04/2025]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[30/04/2025]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[User]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Guvi]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[456 Oak Avenue, Suite 302, Toronto, Ontario, M5A 1A1, Canada]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[4123567890112230]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[VISA]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[December]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[2030]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cancelOrderUsingButtonInsideGrid -->
+        <test-method is-config="true" signature="close()[pri:0, instance:test.TC006_BookedItineraryTest@1573f9fc]" started-at="2025-03-01T21:08:21 IST" name="close" finished-at="2025-03-01T21:08:21 IST" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.TC006_BookedItineraryTest -->
+    </test> <!-- BookedItineraryTest -->
+    <test started-at="2025-03-01T21:08:21 IST" name="LogoutTest" finished-at="2025-03-01T21:08:25 IST" duration-ms="4487">
+      <class name="test.TC007_LogoutTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.TC007_LogoutTest@1f2586d6]" started-at="2025-03-01T21:08:21 IST" name="setup" finished-at="2025-03-01T21:08:21 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:test.TC007_LogoutTest@1f2586d6]" started-at="2025-03-01T21:08:21 IST" name="launchBrowser" finished-at="2025-03-01T21:08:24 IST" duration-ms="3084" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://adactinhotelapp.com/index.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="cancelOrderUsingButtonInsideGrid(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC007_LogoutTest@1f2586d6]" started-at="2025-03-01T21:08:24 IST" name="cancelOrderUsingButtonInsideGrid" data-provider="excelRead" finished-at="2025-03-01T21:08:25 IST" duration-ms="1197" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ManiishAKGuvi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Maniish@0212]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ValidEmailAndValidPassword]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Hello ManiishAKGuvi!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cancelOrderUsingButtonInsideGrid -->
+        <test-method is-config="true" signature="close()[pri:0, instance:test.TC007_LogoutTest@1f2586d6]" started-at="2025-03-01T21:08:25 IST" name="close" finished-at="2025-03-01T21:08:25 IST" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.TC007_LogoutTest -->
+    </test> <!-- LogoutTest -->
+  </suite> <!-- Suite -->
+</testng-results>
